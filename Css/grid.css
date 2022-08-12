@@ -12,8 +12,8 @@
 .row {
     display: flex;
     flex-wrap: wrap;
-    padding-left: -4px;
-    padding-right: -4px;
+    padding-left: -8px;
+    padding-right: -8px;
  
 }
 
@@ -150,10 +150,10 @@
 
 /* >= Tablet */
 @media (min-width: 740px) {
-    .row {
+    /* .row {
         margin-left: -8px;
         margin-right: -8px;
-    }
+    } */
 
     .col {
         padding-left: 8px;
@@ -287,8 +287,8 @@
 /* PC medium resolution > */
 @media (min-width: 1113px) {
     .row {
-        margin-left: -12px;
-        margin-right: -12px;
+        /* margin-left: -12px;
+        margin-right: -12px; */
     }
 
     .row.sm-gutter {
