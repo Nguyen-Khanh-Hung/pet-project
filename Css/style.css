@@ -177,6 +177,27 @@
 .typical-product{
     margin-bottom: 100px;
 }
+.typical-text{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+.typical-text p{
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #333;
+}
+.typical-text span{
+    font-size: 1.2rem;
+    color: var(--content-color);
+}
+.typical-text i{
+    color: var(--replace-color);
+}
+.typical-product img:hover{
+    opacity: 0.7;
+    
+}
 
 /* OUR PRODUCT */
 .our-product{
@@ -215,6 +236,7 @@
 .btn-tab:hover{
     background-color:#292929;
     cursor: pointer;
+    transition: all 0.8s;
 }
 .btn-tab:hover a{
     color: #fff;
@@ -302,11 +324,17 @@
     letter-spacing: 0.5em;
 }
 
+/* product-lastest */
+.product-lastest img{
+    width: 100%;
+}
 /* EVENTS */
 
 .event{
     margin-bottom: 100px;
-   
+}
+.event img:hover{
+    opacity: 0.7;
 }
 .black-friday{
     position: relative; 
@@ -389,14 +417,15 @@
     width: 62px;
     height: 70px;
     background: #fff;
-    top: 20px;
-    right: 20px;
+    top: 10%;
+    right: 10%;
     display: grid;
     align-items: center;
     text-align: center;
 }
 .calendar p{
     font-size: 1.4rem;
+    color: var(--content-color);
 }
 .calendar span{
     font-size: 2rem;
@@ -440,3 +469,66 @@
     color: var(--replace-color);
 }
 
+/* SUBSCRIBE */
+.subscribe{
+    
+    border: 2px solid #e8e8e8;
+    width: 50%;
+    margin: 30px auto;
+    text-align: center;
+}
+.subscribe input{
+    width: 80%;
+    outline: none;
+    border: none;
+    padding: 20px 10px;
+    position: relative;
+}
+.subscribe__btn{
+    color: var(--text-color);
+    font-size: 1.2rem;
+    font-weight: 600;
+    position: relative;
+    text-transform: uppercase;
+    
+}
+.subscribe__btn::before{
+    content: "";
+    position: absolute;
+    top: -50%;
+    height: 30px;
+    background-color: #e8e8e8;
+    width: 2px;
+    left: -20%;
+}
+.subscribe__btn:hover{
+    color: var(--replace-color);
+}
+/* FOOTER */
+
+#footer{
+    padding-bottom: 50px;
+    width: 100%;
+    line-height: 40px;
+}
+.footer__img{
+    width: 15%;
+}
+.footer__right{
+    width: 70%;
+}
+.footer__right p{
+    color: var(--content-color);
+    font-size: 1.4rem;
+}
+.footer__socials{
+    display: flex;
+}
+.footer__socials>li{
+    margin-left: 20px;
+}
+.footer__socials-icon{
+    color: var(--content-color);
+    font-size: 1.8rem;
+    font-weight: 600;
+}
