@@ -16,7 +16,7 @@ const ELEMENT_MENU_SETTINGS =document.getElementById("modal-setting")
 const ELEMENT_HEADER_FUNCTION = document.querySelector(".header__function")
 const ELEMENT_BTN_SETTINGS = ELEMENT_HEADER_FUNCTION .querySelector(".js-btn-setting")
 const ELEMENT_SETTINGS_BTN_RED = ELEMENT_BTN_SETTINGS .querySelector(".js-style")
-console.log(ELEMENT_SETTINGS_BTN_RED);
+
 
 
 

@@ -31,7 +31,7 @@ ELEMENT_BTN_TAB.forEach((tab, index) => {
 //   XỬ LÝ MODAL SETTINGS
 
 function showSettings() {
-    ELEMENT_MENU_SETTINGS.classList.add("active");
+    ELEMENT_MENU_SETTINGS.classList.toggle("active");
     ELEMENT_OVERLAY.classList.toggle("active")
     ELEMENT_SETTINGS_BTN_RED.classList.add("active");
 }
